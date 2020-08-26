@@ -16,9 +16,8 @@ ul{
 ul a{
 	width: 200px;
 	height: 40px;
-	border: 1px solid red;
 	display: block;/*pq os links são elementos inline e pra encaixar a imagem;*/
-	background: url(../Imagens/menu.png) no-repeat left bottom;	
+	background: #f7b600 url(../Imagens/menu.png) no-repeat left bottom;	
 	/*estilizando o link*/
 	color: #000;
 	text-decoration: none;
@@ -30,4 +29,11 @@ a:hover{
 	/*Vai apenas movimentar a imagem que já existe com position*/
 	background-position: right bottom;	
 	color:#fff;
+	background-color: #f99200;
+}
+#home #navegacao .home a,
+#sobre #navegacao .sobre a{
+	background-position: right bottom;	
+	color:#fff;
+	background-color: #f99200;
 }
