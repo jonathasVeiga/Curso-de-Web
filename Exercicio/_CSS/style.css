@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #ebebeb;
+    font-family: Roboto,'Helvetica Neue', sans-serif;
+}
+
+/*Inicio Cabeçalho*/
+header{
+    background-color:#F29F05;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+h1{
+    padding: 40px 0px;
+    color: white;
+}
+
+#menu a{
+padding-right: 20px;
+text-decoration: none;
+color: #D97904;
+font-family: 'Alata', sans-serif;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#home #menu .home a,
+#sobre #menu .sobre a{
+    /*text-shadow: 1px 1px 2px white;*/
+    color: white;
+    display: block;
+}
+/*fim do Cabeçalho*/
+
+#container{
+    width: 920px;
+    margin: 10px auto;
+}
+article,main{
+    background-color: white;
+}
+
+/**Inicio Conteudo***/
+main{
+    float: left;
+    width:650px ;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.conteudo{
+    margin-top:20px;
+}
+
+img{
+    width: 650px;
+}
+
+.saibaMais{
+    display: block;
+    margin-top:10px;
+}
+/**Fim Conteudo***/
+
+/**Inicio artigo**/
+article{
+    float:right;
+    width:220px;
+    margin-bottom: 20px;
+}
+
+.titulo{
+    background-color: #F25C05;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding:5px;
+}
+
+.noticias{
+    padding: 10px;
+}
+
+.linkNoticias{
+    display: block;
+}
+
+.noticias a{
+    padding-bottom:15px ;
+}
+#linksArtigos a{
+ display:block;
+ text-decoration: none;
+ font-family: Roboto,'Helvetica Neue', sans-serif;
+ padding-top:3px;
+ padding-left: 10px;
+}
+#linksArtigos a:hover{
+    text-decoration: underline;
+}
+/**Fim artigo**/
+
+footer{
+    background-color: cadetblue;
+    clear: both;
+    text-align: center;
+    padding: 25px;
+    
+}
