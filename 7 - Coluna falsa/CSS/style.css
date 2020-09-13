@@ -1,0 +1,77 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container{
+	border: 1px solid red;
+	width:960px;/* 720px*/
+	margin: 0 auto;
+	background: #fff url(../imagens/coluna.png) repeat-y ;/********ADICIONANDO O EFITO DE COLUNA FALSA***********/
+	min-width:820px;/*delimita alargura minima, ele não vai diminuir mais que isso*/
+	max-width:1280px;/* delimita alargura minima, ele não vai aumentar mais que isso*/
+}
+
+#marca{
+	width: 100%;/*Não é obrigatório por,pois esse é o valor padrão*/
+	height: 300px;
+	/*Misturando imagem com cor de fundo, dando a ilusão queé umacoisa só*/
+	background: #225992 url(../imagens/cabecalho2.jpg) no-repeat center;
+	text-align: center;
+	line-height: 300px;
+}
+
+#conteudo{
+	width:75% ;/*520px-->74,28*(Arredondo para 75%)*/
+	float: right;
+}
+
+/**estilizando novas div's internas**/
+#conteudo-principal{
+	width:64%;/* 320px-->64(pq foi dividido por 500)*/
+	float: left;
+}
+
+/*************AQUI É O PULO DO GATO*****************/
+img.img_noticia {
+	width: 94%;
+	padding: 2%;
+	/*foi definido esse tamanho pq é o tamanho original da imagem*/
+	max-width: 600px;
+}
+
+#conteudo-secundario{
+	width: 34%;/*180px-->36(pq foi dividido por 500)*/
+	float: right;
+	background: #d1d1d1;
+}
+
+#conteudo-secundario h2,
+#conteudo-secundario p{
+
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/**estilizando novas div's internas**/
+#navegacao{
+	width: 23%;/*180px-->25,71(Arredondo para 23%)*/
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*background: #d1d1d1;*/
+}
+
+#navegacao ul li{
+	list-style-type: none;
+}
+
+#navegacao li a{
+	text-decoration: none;
+}
+
+#rodape{
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px;
+}
