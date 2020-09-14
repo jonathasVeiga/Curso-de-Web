@@ -1,34 +1,31 @@
 body{
-	font-family:"Trebuchet MS",Helvetica,sans-serif;
+	font-family: "Trebucht MS",Helvetica,sans-serif;
 }
 
-table{
-	width: 600px; 
-	border-collapse:separate;/*collapse; Uni a borda de cada celula, elas colapsão */
+fieldset{
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+}
+
+legend{
+	font-weight: bold;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input[type="radio"]{
+	width:1em;
 
 }
 
-th,td {
-	padding: 7px;
+
+textarea{
+	width: 20em;
+	height: 10em;
 }
 
-th{
-	text-transform: uppercase;/*Deixa todas as letras maiusculas*/
-	border-top: 1px solid #999;
-	border-bottom: 1px solid #111;
-	text-align: left;
-	font-size: 90%;
-	letter-spacing: 0.1em;/*espaçamento entre as letras*/
-}
-
-tr.alternado{
-	background: #efefef;
-}
-
-tr:hover{
-	background: #c3e6e5;
-}
-
-.numero{
-	text-align: right;
-}

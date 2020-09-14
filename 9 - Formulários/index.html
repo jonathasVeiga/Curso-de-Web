@@ -2,42 +2,61 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<title>Estilizando tabelas</title>
+	<title>Estilizando formulário</title>
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 <body>
-	<h2>Estilizando Tabelas</h2>
-	<table>
-		<tr>
-			<th>Código</th>
-			<th>Produto</th>
-			<th class="numero">Preço</th>
-		</tr>
+	<h2>Estilizando formulário</h2>
+	<form>
+		<fieldset>
+			<legend>Detalhes de contato</legend>
 
-		<tr>
-			<td>001</td>
-			<td>Notebook</td>
-			<td class="numero">R$ 2.500</td>
-		</tr>
+			<div>
+				<label for="nome">Nome:</label>
+				<input type="text" name="nome" id="nome">
+			</div>
 
-		<tr class="alternado">
-			<td>002</td>
-			<td>Tablet</td>
-			<td class="numero">R$ 1,500</td>
-		</tr>
+			<div>
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="e-mail">
+			</div>
 
-		<tr>
-			<td>003</td>
-			<td>Iphone</td>
-			<td class="numero">R$ 3,500</td>
-		</tr>
-
-		<tr class="alternado">
-			<td>004</td>
-			<td>Nexus</td>
-			<td class="numero">R$ 3.500</td>
-		</tr>
+			<div>
+				<label for="url">URL:</label>
+				<input type="text" name="url" id="url">
+			</div>
 	
-	</table>
+		</fieldset>
+
+		<fieldset>
+
+			<legend>Cometários</legend>
+
+			<div>
+				<label for="menssagem">Menssage:</label>
+				<textarea name="menssagem" id="menssagem"></textarea>
+			</div>
+			
+		</fieldset>
+
+		<fieldset>
+			<legend>Lembrar de mim</legend>
+
+			<div>
+				<label>
+					<input type="radio" name="lembrar" id="sim">Sim
+				</label>
+			</div>
+
+			<div>
+				<label>
+					<input type="radio" name="lembrar" id="nao">Não
+				</label>
+			</div>
+			
+			<!--input type="radio" name="msim"> sim
+			<input type="radio" name="mnao">não-->
+		</fieldset>
+	</form>
 </body>
 </html>
