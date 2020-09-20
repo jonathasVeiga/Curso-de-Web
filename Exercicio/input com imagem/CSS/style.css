@@ -1,0 +1,40 @@
+body{
+	background-color: red;
+}
+
+#container{
+	background-color: rgba(255,255,255,0.3);
+	width: 500px;
+	height: 500px;
+	margin: 100px auto;
+	text-align: center;
+
+}
+
+input{
+	margin-bottom: 10px;
+	height: 40px;
+	width: 80%;
+	font-size:20px;
+	padding-left: 40px;
+	/*aqui tá o segredo, é definido comopadrão para os inputs*/
+	background-repeat: no-repeat;
+	/*como se trata da posição da imagem,por isso é posto esse comando, só assim vc consegue mover a imagem */
+	background-position: 10px;
+	border: none;
+}
+
+
+.email{
+	margin-top:150px;
+	background-image: url(../imagens/icone-usuario.png);
+}
+.senha{
+	background-image: url(../imagens/icone-cadeado.png);
+}
+
+.enviar{
+	padding-left: 0;
+	width:88.3%;
+	border:none;
+}
