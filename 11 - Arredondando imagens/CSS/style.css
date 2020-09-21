@@ -9,10 +9,15 @@
 }
 
 .caixa p{
+	border: 1px solid red;
 	padding: 0 20px;
+	/*o margin top, já faz a separação dos paragrafos
+	  e a div automaticamente cola em baixo.*/
+	margin-bottom: 0;
 }
 
 .caixa .ultimo{
+	border: 1px solid red;
 	background:url("../imagens/baixo.png") no-repeat left top;
 	width: 400px;
 	height: 24px;
